@@ -1,0 +1,37 @@
+body{
+    background-color: #55ffe5;
+}
+
+.head{
+    position: relative;
+    margin-left: 590px;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Alkatra', cursive;
+    font-family: 'Patua One', cursive;
+    font-family: 'Poppins', sans-serif;
+    color: #fa3c3c;
+    animation: slideTop 2s ease forwards;
+}
+
+p{
+    line-height: 2.5;
+    font-family: 'Poppins', cursive;
+    font-weight: 600;
+    font-size: 24px;
+    color: #0b061f;
+    animation: slideTop 3.5s ease forwards;
+    
+}
+
+@keyframes slideTop {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
